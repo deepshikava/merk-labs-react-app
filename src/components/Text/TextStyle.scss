@@ -1,0 +1,13 @@
+@import "../../mixins";
+
+.medium-head {
+  @include medium-heading-style;
+}
+
+.large-head {
+  @include large-heading-style;
+}
+
+.para-style {
+  @include paragraph-style;
+}
