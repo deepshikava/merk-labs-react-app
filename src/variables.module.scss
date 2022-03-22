@@ -9,3 +9,10 @@ $colorNavyBlue: #618dff;
 //Font Style
 $textAlign: left;
 $fontStyle: normal;
+
+:export {
+  colorPink: $colorPink;
+  colorYellow: $colorYellow;
+  colorAquamarine: $colorAquamarine;
+  colorNavyblue: $colorNavyBlue;
+}

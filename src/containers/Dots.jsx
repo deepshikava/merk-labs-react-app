@@ -12,9 +12,9 @@ function Dots() {
   const dotMatrixGenerator = (n) => {
     return [...Array(n)].map((i) => (
       <div key={i}>
-        {[...Array(n)].map((i) => (
-          <div key={i}>
-            <SingleDot key={i} />
+        {[...Array(n)].map((j) => (
+          <div key={j}>
+            <SingleDot key={j} />
           </div>
         ))}
       </div>
