@@ -2,12 +2,8 @@
 
 .img-style {
   @include image-responsive;
-  height: 20vw;
-  width: auto;
 }
 
 .container-row-style {
   @include flex-style;
-  column-gap: 7vw;
-  margin: 0 2vw 5vw 4vw;
 }
