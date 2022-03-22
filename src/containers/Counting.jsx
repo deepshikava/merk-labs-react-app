@@ -12,6 +12,7 @@ export default function Counting() {
     height: "30vw",
     width: "fit-content",
   };
+
   return (
     <div>
       <div className="container-style">

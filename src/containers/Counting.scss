@@ -6,7 +6,8 @@
 
 .container-style {
   @include flex-style;
-  margin: 5vw 8vw 4vw 8vw;
+  column-gap: 2.5vw;
+  margin: 5vw 9vw 4vw 9vw;
 }
 .blur-style {
   width: 60vw;

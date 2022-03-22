@@ -5,32 +5,33 @@ import "./ContainerStyles.scss";
 import variables from "../variables.module.scss";
 
 //Component Imports
-import VerificationImage from "../asserts/verification.png";
+import DetailedImage from "../asserts/detailed.png";
 import { staticContent } from "../staticContent";
 import TextComponent from "../components/Text/TextComponent";
 
-export default function Verification() {
+export default function Detailed() {
   const imgStyle = {
-    height: "20vw",
+    height: "25vw",
     width: "fit-content",
+    marginTop: "1vw",
   };
 
   const flexStyle = {
-    columnGap: "9vw",
-    margin: "0 14vw 5vw 4vw",
+    columnGap: "10vw",
+    margin: "2vw 10vw 1vw 7vw",
   };
   return (
     <div>
       <div className="container-row-style" style={flexStyle}>
         <img
-          src={VerificationImage}
-          alt="verification"
+          src={DetailedImage}
+          alt="detailed"
           className="img-style"
           style={imgStyle}
         />
         <TextComponent
-          textContent={staticContent.section_2}
-          fontColor={variables.colorPink}
+          textContent={staticContent.section_4}
+          fontColor={variables.colorAquamarine}
         />
       </div>
     </div>
