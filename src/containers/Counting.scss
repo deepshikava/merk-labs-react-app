@@ -1,0 +1,32 @@
+.img-style {
+  max-inline-size: 100%;
+  block-size: auto;
+  height: 30vw;
+  width: fit-content;
+}
+
+.counting-container-style {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 5vw 8vw 5vw 8vw;
+}
+.blur-style {
+  width: 60vw;
+  height: 30vw;
+  background: radial-gradient(
+    rgba(31, 141, 231, 0.473),
+    rgba(255, 0, 0, 0) 70.71%
+  );
+  border-radius: 50%;
+}
+.p-style {
+  font-weight: 700;
+  font-size: 2.1vw;
+  line-height: 2.5vw;
+  background: linear-gradient(90deg, #ffffff 0%, #2f7feb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

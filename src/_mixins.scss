@@ -1,0 +1,37 @@
+@import "./variables";
+
+@mixin paragraph-style {
+  font-style: $fontStyle;
+  text-align: $textAlign;
+  color: $colorParagraph;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 46px;
+}
+
+@mixin large-heading-style {
+  font-style: $fontStyle;
+  text-align: $textAlign;
+  color: $colorCommon;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+@mixin medium-heading-style {
+  font-style: $fontStyle;
+  text-align: $textAlign;
+  color: $colorCommon;
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 3.5vw;
+  text-shadow: 0px 4px 37px rgba(255, 255, 255, 0.25);
+}
+
+@mixin small-heading-style {
+  font-style: $fontStyle;
+  text-align: $textAlign;
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 32px;
+}
