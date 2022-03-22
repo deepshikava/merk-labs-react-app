@@ -1,16 +1,12 @@
+@import "../mixins";
+
 .img-style {
-  max-inline-size: 100%;
-  block-size: auto;
-  height: 30vw;
-  width: fit-content;
+  @include image-responsive;
 }
 
-.counting-container-style {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin: 5vw 8vw 5vw 8vw;
+.container-style {
+  @include flex-style;
+  margin: 5vw 8vw 4vw 8vw;
 }
 .blur-style {
   width: 60vw;
@@ -21,10 +17,19 @@
   );
   border-radius: 50%;
 }
+
+.medium-head {
+  @include heading-style;
+  font-size: 2.5vw;
+  font-weight: 700;
+  line-height: 3vw;
+  text-shadow: 0px 4px 37px rgba(255, 255, 255, 0.25);
+}
+
 .p-style {
   font-weight: 700;
   font-size: 2.1vw;
-  line-height: 2.5vw;
+  line-height: 2.8vw;
   background: linear-gradient(90deg, #ffffff 0%, #2f7feb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
