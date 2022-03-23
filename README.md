@@ -8,7 +8,7 @@ Open [https://www.figma.com/file/xnUSRZLFycuffPykP45esr/Merk-Labs-2nd-Section-(C
 
 # LIVE DEMO
 
-Open [https://www.figma.com/file/xnUSRZLFycuffPykP45esr/Merk-Labs-2nd-Section-(Copy)?node-id=0%3A1] to view the demo of the 2nd section of the homepage of Merk Labs react app.
+Open [https://merklabs.netlify.app/] to view the demo of the 2nd section of the homepage of Merk Labs react app.
 
 ## Available Scripts
 
