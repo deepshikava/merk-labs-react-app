@@ -1,0 +1,35 @@
+@import "../mixins";
+
+.img-style {
+  @include image-responsive;
+}
+
+.container-styling {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  position: relative;
+}
+
+.container-row-style {
+  @include flex-style;
+}
+
+.container-col-style {
+  @include container-column-style;
+  gap: 0.5vw;
+}
+
+.head-style {
+  @include heading-style;
+  font-size: 2vw;
+  font-weight: 700;
+  line-height: 2vw;
+}
+
+.sub-text-style {
+  @include heading-style;
+  font-size: 1.1vw;
+  font-weight: 700;
+  line-height: 2vw;
+}

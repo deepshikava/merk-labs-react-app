@@ -5,16 +5,10 @@ import "./Counting.scss";
 
 //Static Data Imports
 import { staticContent } from "../staticContent";
-
-//Image Imports
-import CountImage from "../asserts/count.png";
+//Component Imports
+import Count from "./Count";
 
 export default function Counting() {
-  const imgStyle = {
-    height: "30vw",
-    width: "fit-content",
-  };
-
   return (
     <div>
       <div className="container-style">
@@ -24,12 +18,7 @@ export default function Counting() {
           </span>
           <p className="p-style">{staticContent.section_1.paragraphText}</p>
         </div>
-        <img
-          src={CountImage}
-          alt="counting"
-          className="img-style"
-          style={imgStyle}
-        />
+        <Count />
       </div>
     </div>
   );
