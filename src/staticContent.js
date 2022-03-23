@@ -43,6 +43,22 @@ const staticContent = {
   },
 };
 
+const countData = [
+  {
+    countValue: "100+",
+    subText: "Blockchain companies protected",
+  },
+  {
+    countValue: "200+",
+    subText: "Issues discovered",
+  },
+  {
+    countValue: "10,000+",
+    subText: "Analyses available per month",
+  },
+];
+
 module.exports = {
   staticContent,
+  countData,
 };
