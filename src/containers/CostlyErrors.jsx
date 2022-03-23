@@ -4,10 +4,14 @@ import React from "react";
 import "./ContainerStyles.scss";
 import variables from "../variables.module.scss";
 
-//Component Imports
-import CostlyErrorsImage from "../asserts/costlyErrors.svg";
+//Static Data Imports
 import { staticContent } from "../staticContent";
+
+//Component Imports
 import TextComponent from "../components/Text/TextComponent";
+
+//Image Imports
+import CostlyErrorsImage from "../asserts/costlyErrors.svg";
 
 export default function CostlyErrors() {
   const imgStyle = {
@@ -17,7 +21,7 @@ export default function CostlyErrors() {
 
   const flexStyle = {
     columnGap: "8vw",
-    margin: "0 14vw 1vw 5vw",
+    margin: "2vw 14vw 2vw 5vw",
   };
 
   return (

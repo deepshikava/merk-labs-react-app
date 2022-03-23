@@ -4,10 +4,14 @@ import React from "react";
 import "./ContainerStyles.scss";
 import variables from "../variables.module.scss";
 
-//Component Imports
-import EasyIntegrationImage from "../asserts/easyIntegration.svg";
+//Static Data Imports
 import { staticContent } from "../staticContent";
+
+//Component Imports
 import TextComponent from "../components/Text/TextComponent";
+
+//Image Imports
+import EasyIntegrationImage from "../asserts/easyIntegration.svg";
 
 export default function EasyIntegration() {
   const imgStyle = {
@@ -17,7 +21,7 @@ export default function EasyIntegration() {
 
   const flexStyle = {
     columnGap: "15wv",
-    margin: "0 11vw 1vw 7vw",
+    margin: "2vw 11vw 2vw 7vw",
   };
   return (
     <div>

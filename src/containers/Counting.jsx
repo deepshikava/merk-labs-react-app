@@ -3,9 +3,11 @@ import React from "react";
 //CSS Imports
 import "./Counting.scss";
 
-//Component Imports
-import CountImage from "../asserts/count.png";
+//Static Data Imports
 import { staticContent } from "../staticContent";
+
+//Image Imports
+import CountImage from "../asserts/count.png";
 
 export default function Counting() {
   const imgStyle = {

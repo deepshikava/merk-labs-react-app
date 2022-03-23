@@ -4,10 +4,14 @@ import React from "react";
 import "./ContainerStyles.scss";
 import variables from "../variables.module.scss";
 
-//Component Imports
-import ExpertReviewImage from "../asserts/expertReview.svg";
+//Static Data Imports
 import { staticContent } from "../staticContent";
+
+//Component Imports
 import TextComponent from "../components/Text/TextComponent";
+
+//Image Imports
+import ExpertReviewImage from "../asserts/expertReview.svg";
 
 export default function ExpertReview() {
   const imgStyle = {
@@ -17,7 +21,7 @@ export default function ExpertReview() {
 
   const flexStyle = {
     columnGap: "9vw",
-    margin: "0 10vw 1vw 5vw",
+    margin: "7vw 10vw 2vw 5vw",
   };
 
   return (
