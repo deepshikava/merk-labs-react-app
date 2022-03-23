@@ -4,10 +4,14 @@ import React from "react";
 import "./ContainerStyles.scss";
 import variables from "../variables.module.scss";
 
-//Component Imports
-import VerificationImage from "../asserts/verification.svg";
+//Static Data Imports
 import { staticContent } from "../staticContent";
+
+//Component Imports
 import TextComponent from "../components/Text/TextComponent";
+
+//Image Imports
+import VerificationImage from "../asserts/verification.svg";
 
 export default function Verification() {
   const imgStyle = {

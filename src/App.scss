@@ -1,0 +1,35 @@
+@import "./mixins";
+
+.container-styling {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  position: relative;
+}
+
+.neon1-img-style {
+  @include image-responsive;
+  position: absolute;
+  left: 12vw;
+  top: 7vw;
+  height: fit-content;
+  width: 50%;
+}
+
+.neon2-img-style {
+  @include image-responsive;
+  position: absolute;
+  right: 12vw;
+  top: 21vw;
+  height: fit-content;
+  width: 40%;
+}
+
+.neon3-img-style {
+  @include image-responsive;
+  position: absolute;
+  left: 15vw;
+  top: 18vw;
+  height: fit-content;
+  width: 40%;
+}
