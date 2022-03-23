@@ -5,7 +5,7 @@ import "./ContainerStyles.scss";
 import variables from "../variables.module.scss";
 
 //Component Imports
-import DetailedImage from "../asserts/detailed.png";
+import DetailedImage from "../asserts/detailed.svg";
 import { staticContent } from "../staticContent";
 import TextComponent from "../components/Text/TextComponent";
 
@@ -17,8 +17,8 @@ export default function Detailed() {
   };
 
   const flexStyle = {
-    columnGap: "10vw",
-    margin: "2vw 10vw 1vw 7vw",
+    columnGap: "13vw",
+    margin: "2vw 9vw 1vw 7vw",
   };
   return (
     <div>

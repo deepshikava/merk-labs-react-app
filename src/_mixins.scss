@@ -25,3 +25,9 @@
   justify-content: flex-start;
   flex-flow: row nowrap;
 }
+
+@mixin container-column-style {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+}

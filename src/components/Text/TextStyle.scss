@@ -22,9 +22,7 @@
 }
 
 .container-col-style {
-  display: flex;
-  justify-content: flex-start;
-  flex-flow: column wrap;
+  @include container-column-style;
   gap: 0.5vw;
   margin: 1vw;
 }
