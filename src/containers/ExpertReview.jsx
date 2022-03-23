@@ -5,7 +5,7 @@ import "./ContainerStyles.scss";
 import variables from "../variables.module.scss";
 
 //Component Imports
-import ExpertReviewImage from "../asserts/expertReview.png";
+import ExpertReviewImage from "../asserts/expertReview.svg";
 import { staticContent } from "../staticContent";
 import TextComponent from "../components/Text/TextComponent";
 

@@ -5,19 +5,20 @@ import "./ContainerStyles.scss";
 import variables from "../variables.module.scss";
 
 //Component Imports
-import EasyIntegrationImage from "../asserts/easyIntegration.png";
+import EasyIntegrationImage from "../asserts/easyIntegration.svg";
 import { staticContent } from "../staticContent";
 import TextComponent from "../components/Text/TextComponent";
 
 export default function EasyIntegration() {
   const imgStyle = {
-    height: "25vw",
+    margin: 0,
+    height: "28vw",
     width: "fit-content",
   };
 
   const flexStyle = {
-    columnGap: "7vw",
-    margin: "2vw 8vw 1vw 7vw",
+    columnGap: "5wv",
+    margin: "0 8vw 1vw 7vw",
   };
   return (
     <div>

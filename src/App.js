@@ -1,4 +1,4 @@
-//Container Import
+//Container Imports
 import Dots from "./containers/Dots";
 import Counting from "./containers/Counting";
 import Verification from "./containers/Verification";

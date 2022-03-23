@@ -5,7 +5,7 @@ import "./ContainerStyles.scss";
 import variables from "../variables.module.scss";
 
 //Component Imports
-import VerificationImage from "../asserts/verification.png";
+import VerificationImage from "../asserts/verification.svg";
 import { staticContent } from "../staticContent";
 import TextComponent from "../components/Text/TextComponent";
 
