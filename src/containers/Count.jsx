@@ -34,7 +34,7 @@ export default function Count() {
     flexStyle: {
       position: "absolute",
       left: "3vw",
-      top: "2vw",
+      top: "3vw",
       margin: "1vw 1vw 1vw 2vw",
     },
   };
