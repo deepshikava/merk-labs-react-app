@@ -11,14 +11,13 @@ import TextComponent from "../components/Text/TextComponent";
 
 export default function EasyIntegration() {
   const imgStyle = {
-    margin: 0,
-    height: "28vw",
+    height: "30vw",
     width: "fit-content",
   };
 
   const flexStyle = {
-    columnGap: "5wv",
-    margin: "0 8vw 1vw 7vw",
+    columnGap: "15wv",
+    margin: "0 11vw 1vw 7vw",
   };
   return (
     <div>
